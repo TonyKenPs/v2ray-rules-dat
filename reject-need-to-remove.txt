@@ -1,3 +1,4 @@
+2miners.com
 4paradigm.com
 addthis.com
 addthisedge.com
@@ -12,8 +13,12 @@ click.redditmail.com
 ctrip.com
 d.ifengimg.com
 fabric.io
+googleapis.com
+googleapis.cn
+google.com
 icons.mydrivers.com
 img.alibaba.com
+in.appcenter.ms
 jav321.com
 knet.cn
 mail.tsinghua.edu.cn
@@ -32,8 +37,3 @@ tongji.baidu.com
 tv.sohu.com
 ue.yeyoucdn.com
 wl.spotify.com
-2miners.com
-googleapis.com
-googleapis.cn
-google.com
-in.appcenter.ms
