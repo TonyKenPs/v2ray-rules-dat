@@ -1,3 +1,5 @@
 domain:allcpp.cn
 domain:netease.im
 domain:bandainamicoshanghai.com
+domain:hypergryph.com
+domain:sunborngame.com
