@@ -1,0 +1,3 @@
+domain:allcpp.cn
+domain:netease.im
+domain:bandainamicoshanghai.com
