@@ -155,8 +155,8 @@ jobs:
         run: |
           curl -sSL $CHINA_DOMAINS_URL | perl -ne '/^server=\/([^\/]+)\// && print "$1\n"' > ./community/data/china-list
           curl -sSL $CHINA_DOMAINS_URL | perl -ne '/^server=\/([^\/]+)\// && print "$1\n"' > china-list.txt
-          curl -sSL $OPPO_REALME_REJECT_URL | perl -ne '/^server=\/([^\/]+)\// && print "$1\n"' > ./community/data/oppo-realme-list
-          curl -sSL $OPPO_REALME_REJECT_URL | perl -ne '/^server=\/([^\/]+)\// && print "$1\n"' > oppo-realme-list.txt
+          curl -sSL $OPPO_REALME_REJECT_URL | perl -ne '/^local=\/([^\/]+)\// && print "$1\n"' > ./community/data/oppo-realme-list
+          curl -sSL $OPPO_REALME_REJECT_URL | perl -ne '/^local=\/([^\/]+)\// && print "$1\n"' > oppo-realme-list.txt
           curl -sSL $GOOGLE_DOMAINS_URL | perl -ne '/^server=\/([^\/]+)\// && print "full:$1\n"' > ./community/data/google-cn
           curl -sSL $GOOGLE_DOMAINS_URL | perl -ne '/^server=\/([^\/]+)\// && print "full:$1\n"' > google-cn.txt
           curl -sSL $APPLE_DOMAINS_URL | perl -ne '/^server=\/([^\/]+)\// && print "full:$1\n"' > ./community/data/apple-cn
