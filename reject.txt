@@ -4,11 +4,12 @@ api.bytegle.site
 api.dollphoin.site
 api.inmense.site
 api.kickoffo.site
+api.myadsget.com
 api.revenuads.com
 api.youngle.site
 back-pain-treatment-668.ink
 flarequickahl.com
 gdl.youngle.tech
-http://vibeaconstr.onezapp.com:8080/analytics/upload
 mraid.bigo.sg
+tpstelemetry.tencent.com
 vibeaconstr.onezapp.com
