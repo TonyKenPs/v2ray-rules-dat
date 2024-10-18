@@ -16,6 +16,7 @@ fabric.io
 googleapis.com
 googleapis.cn
 google.com
+graph.instagram.com
 icons.mydrivers.com
 img.alibaba.com
 in.appcenter.ms
