@@ -1,4 +1,5 @@
 adx-os.bridgeoos.com
+api.antibanads.com
 api.bridgeoos.com
 api.bytegle.site
 api.dollphoin.site
