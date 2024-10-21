@@ -38,3 +38,4 @@ tongji.baidu.com
 tv.sohu.com
 ue.yeyoucdn.com
 wl.spotify.com
+staticsns.cdn.bcebos.com
