@@ -1,0 +1,1 @@
+regexp:^vulcan\\d+\\.branch\\.io$
