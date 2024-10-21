@@ -31,6 +31,7 @@ qlogo.cn
 resolver.msg.xiaomi.net
 s.youtube.com
 sf3-ttcdn-tos.pstatp.com
+staticsns.cdn.bcebos.com
 t.co
 tagtic.cn
 telegra.ph
@@ -38,4 +39,3 @@ tongji.baidu.com
 tv.sohu.com
 ue.yeyoucdn.com
 wl.spotify.com
-staticsns.cdn.bcebos.com
