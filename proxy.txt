@@ -1,3 +1,5 @@
+co.jp
+developers.google.cn
 font.googleapis.cn
 services.googleapis.cn
 supertop.co
