@@ -10,6 +10,7 @@ api.revenuads.com
 api.youngle.site
 back-pain-treatment-668.ink
 flarequickahl.com
+g.live.com
 gdl.youngle.tech
 mraid.bigo.sg
 tpstelemetry.tencent.com
