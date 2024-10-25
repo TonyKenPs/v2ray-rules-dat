@@ -12,6 +12,7 @@ click.discord.com
 click.redditmail.com
 ctrip.com
 d.ifengimg.com
+dns.alidns.com
 fabric.io
 googleapis.com
 googleapis.cn
