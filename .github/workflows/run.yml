@@ -162,8 +162,8 @@ jobs:
           [ -f "direct-reserve.txt" ] && cat direct-reserve.txt >> ./community/data/cn
           [ -f "proxy-reserve.txt" ] && cat proxy-reserve.txt >> ./community/data/geolocation-\!cn
           [ -f "reject-reserve.txt" ] && cat reject-reserve.txt >> ./community/data/category-ads-all
-          [ -f "direct-domain.txt" ] && cat direct-domain.txt >> temp-direct-domain.txt
-          [ -f "reject-domain.txt" ] && cat reject-domain.txt >> temp-reject-domain.txt
+          cat direct-domain.txt >> temp-direct-domain.txt
+          cat reject-domain.txt >> temp-reject-domain.txt
           cp ./community/data/cn direct-list.txt
           cp ./community/data/geolocation-\!cn proxy-list.txt
           cp ./community/data/category-ads-all reject-list.txt
