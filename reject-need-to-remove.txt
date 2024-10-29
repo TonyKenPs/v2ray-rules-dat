@@ -31,6 +31,7 @@ in.appcenter.ms
 jav321.com
 knet.cn
 mail.tsinghua.edu.cn
+mdp-appconf-cn.heytapdl.com
 mtalk.google.com
 mx.technolutions.net
 obus-cn.dc.heytapmobi.com
