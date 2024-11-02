@@ -1,6 +1,6 @@
 domain:allcpp.cn
 domain:netease.im
-domain:bandainamicoshanghai.com
+domain:bandainamcoshanghai.com
 domain:hypergryph.com
 domain:sunborngame.com
 domain:gzyowin.com
