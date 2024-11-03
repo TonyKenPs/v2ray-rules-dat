@@ -37,6 +37,7 @@ knet.cn
 mail.tsinghua.edu.cn
 mtalk.google.com
 mx.technolutions.net
+nhentai.net
 offer.alibaba.com
 pingjs.qq.com
 qlogo.cn
