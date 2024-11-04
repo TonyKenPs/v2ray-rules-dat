@@ -10,6 +10,7 @@ app.chat.xiaomi.net
 apps.coloros.com
 bdtj.tagtic.cn
 cdn.onesignal.com
+catbox.moe
 click.discord.com
 click.redditmail.com
 clientmetrics-pa.googleapis.com
