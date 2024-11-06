@@ -6,7 +6,9 @@ allawnfs.com
 alimama.alicdn.com
 alimama.com
 analytics.google.com
+api-cn.cdo.heytapmobi.com
 app.chat.xiaomi.net
+appconf.heytapdownload.com
 apps.coloros.com
 bdtj.tagtic.cn
 cdn.onesignal.com
@@ -16,6 +18,7 @@ click.redditmail.com
 clientmetrics-pa.googleapis.com
 clientservices.googleapis.com
 clienttracing-pa.googleapis.com
+conf-cn.dc.heytapmobi.com
 ctrip.com
 d.ifengimg.com
 dns.alidns.com
@@ -36,6 +39,7 @@ jav321.com
 jnn-pa.googleapis.com
 knet.cn
 mail.tsinghua.edu.cn
+mdp-appconf-cn.heytapdl.com
 mtalk.google.com
 mx.technolutions.net
 nhentai.net
