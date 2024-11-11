@@ -43,6 +43,7 @@ mdp-appconf-cn.heytapdl.com
 mtalk.google.com
 mx.technolutions.net
 nhentai.net
+nyaa.si
 offer.alibaba.com
 pingjs.qq.com
 qlogo.cn
