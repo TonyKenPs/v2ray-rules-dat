@@ -16,7 +16,9 @@ coinomi.net
 croea.com
 developers.google.cn
 dfldata
+fulijianghu
 font.googleapis.cn
+googleapis
 im.ge
 imagegoto.com
 imagehaha.com
@@ -25,6 +27,7 @@ imgccc.com
 imgso.net
 ip-api.com
 jandan.net
+kamept.com
 moshimo.com
 naixi.net
 nexusbytes.com
@@ -41,6 +44,8 @@ telghub.com
 tianyapics.xyz
 url365.club
 vilivili.club
+wacom
+waikeung.net
 www.googleapis.cn
 www.google.cn
 xms45.com
