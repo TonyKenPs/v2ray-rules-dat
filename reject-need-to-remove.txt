@@ -39,6 +39,8 @@ jav321.com
 jnn-pa.googleapis.com
 knet.cn
 mail.tsinghua.edu.cn
+media.fc2.com
+media5.fc2.com
 mdp-appconf-cn.heytapdl.com
 mtalk.google.com
 mx.technolutions.net
@@ -50,6 +52,8 @@ qlogo.cn
 resolver.msg.xiaomi.net
 s.youtube.com
 sf3-ttcdn-tos.pstatp.com
+staticfile.net
+staticfile.org
 staticsns.cdn.bcebos.com
 t.co
 tagtic.cn
@@ -57,4 +61,5 @@ telegra.ph
 tongji.baidu.com
 tv.sohu.com
 ue.yeyoucdn.com
+upload.cc
 wl.spotify.com
