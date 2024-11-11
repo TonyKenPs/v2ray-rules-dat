@@ -22,6 +22,7 @@ conf-cn.dc.heytapmobi.com
 ctrip.com
 d.ifengimg.com
 dns.alidns.com
+dns.pub
 fabric.io
 firebasedynamiclinks.googleapis.com
 firebaselogging-pa.googleapis.com
@@ -49,6 +50,7 @@ nyaa.si
 offer.alibaba.com
 pingjs.qq.com
 qlogo.cn
+rapidgator.net
 resolver.msg.xiaomi.net
 s.youtube.com
 sf3-ttcdn-tos.pstatp.com
