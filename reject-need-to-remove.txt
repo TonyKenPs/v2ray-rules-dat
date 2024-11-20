@@ -65,3 +65,4 @@ tv.sohu.com
 ue.yeyoucdn.com
 upload.cc
 wl.spotify.com
+www.paypalobjects.com
