@@ -19,6 +19,7 @@ clientmetrics-pa.googleapis.com
 clientservices.googleapis.com
 clienttracing-pa.googleapis.com
 conf-cn.dc.heytapmobi.com
+croea.com
 ctrip.com
 d.ifengimg.com
 dns.alidns.com
