@@ -111,6 +111,7 @@ dig-ec.bdurl.net
 dig-tlsv3.bdurl.net
 dig.bdurl.net
 dig.zjurl.cn
+discuz.gtimg.cn
 dns-info-static.hitwh.net.cn
 dns-test.research.a10protects.com
 dns.cyida.com
