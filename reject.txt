@@ -185,7 +185,6 @@ miav-cse.avlyun.com
 miui-fxcse.avlyun.com
 mraid.bigo.sg
 msg.71.am
-msg.umengcloud.com
 mssdk-bu.bytedance.com
 musicps.p2p.qq.com
 musicpunch.p2p.qq.com
@@ -230,7 +229,6 @@ tracking.miui.com
 trc.adsage.com
 tt.cn
 twns.p2ptun.qq.com
-ulogs.umeng.com
 ulogs.umeng.com
 umeng.co
 umeng.com.gds.alibabadns.com
