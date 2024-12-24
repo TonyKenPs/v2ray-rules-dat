@@ -1,3 +1,7 @@
+api.tpns.tencent.com
+api.tpns.sh.tencent.com
+api.tpns.hk.tencent.com
+api.tpns.sgp.tencent.com
 httpdns.push.oppomobile.com
 httpdns-push.heytapmobile.com
 httpdns-euex-push.heytapmobile.com
