@@ -1,6 +1,9 @@
 httpdns.push.oppomobile.com
 httpdns-push.heytapmobile.com
 httpdns-euex-push.heytapmobile.com
+api.push.oppomobile.com
+api-intl.push.oppomobile.com
+feedback.push.oppomobile.com
 msg.umeng.com
 msgapi.umeng.com
 ack.upush.umeng.com
