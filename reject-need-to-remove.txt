@@ -33,6 +33,10 @@ google.com
 googleapis.cn
 googleapis.com
 graph.instagram.com
+httpdns-euex-push.heytapmobile.com
+httpdns-ocloud.heytapmobile.com
+httpdns-push.heytapmobile.com
+httpdns.push.oppomobile.com
 icons.mydrivers.com
 imagetwist.com
 imasdk.googleapis.com
@@ -54,6 +58,8 @@ nhentai.net
 nyaa.si
 offer.alibaba.com
 pingjs.qq.com
+push.heytapmobi.com
+push.heytapmobile.com
 qlogo.cn
 rapidgator.net
 resolver.msg.xiaomi.net
