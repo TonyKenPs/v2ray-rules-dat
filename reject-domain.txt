@@ -28,4 +28,3 @@ regexp:log\*-misc-lf\.amemv\.com
 regexp:log\*\.aliyuncs\.com
 regexp:p\*-ad\.adukwai\.com
 regexp:report\.\*\.qq\.com
-regexp:tnc\*\.zijieapi\.com
