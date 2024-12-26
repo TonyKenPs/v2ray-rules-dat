@@ -55,7 +55,8 @@ msgapi.umeng.com
 mtalk.google.com
 mx.technolutions.net
 nhentai.net
-nyaa.siobus-cn.dc.heytapmobi.com
+nyaa.si
+obus-cn.dc.heytapmobi.com
 obus-config-cn.heytapmobi.com
 obus-dc10-cn.heytapmobi.com
 obus-dc2-cn.heytapmobi.com
