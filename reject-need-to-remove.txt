@@ -25,6 +25,7 @@ ctrip.com
 d.ifengimg.com
 dns.alidns.com
 dns.pub
+e-hentai.org
 fabric.io
 firebasedynamiclinks.googleapis.com
 firebaselogging-pa.googleapis.com
