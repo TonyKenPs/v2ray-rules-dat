@@ -12,11 +12,12 @@ domain:sfpic2021b.com
 domain:unity3d.com
 domain:yingxiangdao.com
 domain:omarea.com
+keyword:hentai
 keyword:googleapis
 keyword:manhuaren
 keyword:mikuclub
 keyword:xn--ngstr
-regexp:.*\\.jp$
-regexp:\\.gvt.*\\.com$
-regexp:api.*\\.jp$
-regexp:prd.*\\.akamaized.net$
+regexp:.*\.jp$
+regexp:(^|\.)gvt.*\.com$
+regexp:api.*\.jp$
+regexp:prd.*\.akamaized.net$
