@@ -187,7 +187,6 @@ jobs:
           cp ./community/data/category-ads-all reject-list.txt
           cp ./community/data/category-porn category-porn-list.txt
           cp ./community/data/direct-modded direct-modded-list.txt
-          cp ./community/data/private private-list.txt
 
       - name: Create `china-list`、`google-cn`、`apple-cn`、`gfw`、`greatfire`、`oppo-realme-list` lists
         run: |
