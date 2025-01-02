@@ -179,6 +179,7 @@ jobs:
           [ -f "reject-domain.txt" ] && cat reject-domain.txt >> ./community/data/category-ads-all
           [ -f "game.txt" ] && cat game.txt >> ./community/data/category-games
           [ -f "cat-porn-mod.txt" ] && cat cat-porn-mod.txt >> ./community/data/category-porn
+          [ -f "private-add.txt" ] && cat private-add.txt >> ./community/data/private
           [ -f "direct-modded.txt" ] && { [ ! -f "./community/data/direct-modded" ] && touch ./community/data/direct-modded; cat direct-modded.txt >> ./community/data/direct-modded; }
           cp ./community/data/category-games category-games-list.txt
           cp ./community/data/cn direct-list.txt
@@ -186,6 +187,7 @@ jobs:
           cp ./community/data/category-ads-all reject-list.txt
           cp ./community/data/category-porn category-porn-list.txt
           cp ./community/data/direct-modded direct-modded-list.txt
+          cp ./community/data/private private-list.txt
 
       - name: Create `china-list`、`google-cn`、`apple-cn`、`gfw`、`greatfire`、`oppo-realme-list` lists
         run: |
@@ -217,7 +219,7 @@ jobs:
           install -Dp ./custom/publish/geosite.dat ./publish/geosite.dat
           install -p {proxy,direct,reject}-tld-list.txt ./publish/
           install -p {proxy,direct,reject}-list.txt ./publish/
-          install -p {china-list,apple-cn,google-cn,gfw,greatfire,win-spy,win-update,win-extra,category-games-list,direct-modded-list}.txt ./publish/
+          install -p {china-list,apple-cn,google-cn,gfw,greatfire,win-spy,win-update,win-extra,category-games-list,direct-modded-list,private}.txt ./publish/
           cd ./publish || exit 1
           zip rules.zip {proxy,direct,reject}-list.txt geoip.dat geosite.dat
           sha256sum geosite.dat > geosite.dat.sha256sum
