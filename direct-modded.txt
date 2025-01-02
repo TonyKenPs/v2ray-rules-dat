@@ -13,5 +13,3 @@ full:msg.umeng.com
 full:msgapi.umeng.com
 domain:netease.im
 domain:push.oppomobile.com
-regexp:(^|\.)conn-service-cn-[0-9][0-9]\.allawntech.com$
-regexp:(^|\.)conn[0-9]\.coloros.com$
