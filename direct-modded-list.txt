@@ -1,0 +1,15 @@
+full:ack.upush.umeng.com
+full:api.tpns.tencent.com
+full:api.tpns.sh.tencent.com
+full:api.tpns.hk.tencent.com
+full:api.tpns.sgp.tencent.com
+full:api.push.oppomobile.com
+full:api-intl.push.oppomobile.com
+full:httpdns.push.oppomobile.com
+full:httpdns-push.heytapmobile.com
+full:httpdns-euex-push.heytapmobile.com
+full:feedback.push.oppomobile.com
+full:msg.umeng.com
+full:msgapi.umeng.com
+domain:netease.im
+domain:push.oppomobile.com
