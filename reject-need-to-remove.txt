@@ -35,8 +35,8 @@ googleapis.cn
 googleapis.com
 graph.instagram.com
 httpdns-euex-push.heytapmobile.com
-httpdns-ocloud.heytapmobile.com
-httpdns-push.heytapmobile.com
+httpdns.ocloud.heytapmobile.com
+httpdns.push.heytapmobile.com
 httpdns.push.oppomobile.com
 icons.mydrivers.com
 imagetwist.com
