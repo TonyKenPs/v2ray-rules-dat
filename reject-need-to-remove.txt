@@ -80,6 +80,7 @@ sf3-ttcdn-tos.pstatp.com
 staticfile.net
 staticfile.org
 staticsns.cdn.bcebos.com
+szlong.weixin.qq.com
 t.co
 tagtic.cn
 telegra.ph
