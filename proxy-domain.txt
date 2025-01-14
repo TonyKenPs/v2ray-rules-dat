@@ -7,6 +7,7 @@ domain:i18n-pglstatp.com
 domain:j.microad.net
 domain:kaspersky-labs.com
 domain:live.com
+domain:omarea.com
 domain:openmediation.com
 domain:sfpic2021b.com
 domain:unity3d.com
