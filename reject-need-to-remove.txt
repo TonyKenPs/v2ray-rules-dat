@@ -72,6 +72,7 @@ offer.alibaba.com
 pingjs.qq.com
 push.heytapmobi.com
 push.heytapmobile.com
+push.oppomobile.com
 qlogo.cn
 rapidgator.net
 resolver.msg.xiaomi.net
