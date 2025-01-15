@@ -13,3 +13,4 @@ full:msg.umeng.com
 full:msgapi.umeng.com
 domain:netease.im
 domain:push.oppomobile.com
+domain:push.heytapmobile.com
