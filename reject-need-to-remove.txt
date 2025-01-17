@@ -40,6 +40,7 @@ graph.instagram.com
 httpdns-euex-push.heytapmobile.com
 httpdns-push.heytapmobile.com
 httpdns.push.oppomobile.com
+httpdns.push.oppomobile.com
 icons.mydrivers.com
 imagetwist.com
 imasdk.googleapis.com
