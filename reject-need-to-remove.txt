@@ -26,8 +26,11 @@ d.ifengimg.com
 data.bilibili.cn
 data.bilibili.com
 data.bilibili.tv
+doh.pub
 dns.alidns.com
 dns.pub
+dns.weixin.qq.com
+dns.weixin.qq.com.cn
 e-hentai.org
 fabric.io
 firebasedynamiclinks.googleapis.com
