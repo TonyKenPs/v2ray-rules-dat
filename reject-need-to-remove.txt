@@ -11,6 +11,7 @@ app.chat.xiaomi.net
 appconf.heytapdownload.com
 apps.coloros.com
 bdtj.tagtic.cn
+bitsearch.to
 catbox.moe
 cdn.onesignal.com
 click.discord.com
