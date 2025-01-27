@@ -13,6 +13,8 @@ domain:sfpic2021b.com
 domain:unity3d.com
 domain:yingxiangdao.com
 domain:omarea.com
+domain:ntp.org
+domain:ntp.msn.cn
 keyword:hentai
 keyword:googleapis
 keyword:manhuaren
