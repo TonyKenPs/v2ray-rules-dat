@@ -58,7 +58,8 @@ knet.cn
 mail.tsinghua.edu.cn
 mdp-appconf-cn.heytapdl.com
 media.fc2.com
-media5.fc2.com
+media5.fc2.co
+mmmgame.qpic.cn
 msgapi.umeng.com
 mtalk.google.com
 mx.technolutions.net
@@ -83,6 +84,7 @@ push.heytapmobi.com
 push.heytapmobile.com
 push.oppomobile.com
 qlogo.cn
+qpic.cn
 rapidgator.net
 resolver.msg.xiaomi.net
 s.youtube.com
