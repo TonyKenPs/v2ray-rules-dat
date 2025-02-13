@@ -16,6 +16,8 @@ catbox.moe
 cdn.onesignal.com
 click.discord.com
 click.redditmail.com
+clientlog.music.163.com
+clientlog3.music.163.com
 clientmetrics-pa.googleapis.com
 clientservices.googleapis.com
 clienttracing-pa.googleapis.com
