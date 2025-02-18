@@ -4,10 +4,7 @@ regexp:\*-launches\.appsflyersdk\.com
 regexp:\*\.bjmantis\.net
 regexp:\*\.compute\.hwclouds-dns\.com
 regexp:\*\.dns-detect\.alicdn\.com
-regexp:\*\.dns-detect\.alicdn\.com
 regexp:\*\.dns\.cross\.gt
-regexp:\*\.dns\.cross\.gt
-regexp:\*\.mcdn\.bilivideo\.cn
 regexp:\*\.nrb\.footprintdns\.com
 regexp:\*dns\*\.adobe\.com
 regexp:@adsmogo\.com
