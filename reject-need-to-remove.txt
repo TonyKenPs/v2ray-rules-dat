@@ -60,6 +60,8 @@ jpush.io
 katfile.com
 knet.cn
 mail.tsinghua.edu.cn
+mcdn.bilivideo.cn
+mcdn.bilivideo.com
 mdp-appconf-cn.heytapdl.com
 media.fc2.com
 media5.fc2.co
