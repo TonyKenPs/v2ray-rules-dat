@@ -103,7 +103,6 @@ ctobsnssdk.com
 cz15.now-dns.top
 d.gdt.qq.com
 d3g.qq.com
-data.bilibili.cn
 data.qq.com
 data.video.dns.iqiyi.com
 dc.letv.com
@@ -227,7 +226,6 @@ trc.adsage.com
 tt.cn
 twns.p2ptun.qq.com
 ulogs.umeng.com
-umeng.co
 umeng.com.gds.alibabadns.com
 umengacs.m.taobao.com
 umengjmacs.m.taobao.com
