@@ -131,6 +131,8 @@ tnc3-bjlgy.zijieapi.com
 tongji.baidu.com
 tv.sohu.com
 ue.yeyoucdn.com
+umeng.co
+umeng.com
 upload.cc
 wl.spotify.com
 www.paypalobjects.com
