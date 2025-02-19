@@ -133,6 +133,7 @@ tv.sohu.com
 ue.yeyoucdn.com
 umeng.co
 umeng.com
+umengcloud.com
 upload.cc
 wl.spotify.com
 www.paypalobjects.com
