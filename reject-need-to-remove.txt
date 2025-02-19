@@ -35,6 +35,7 @@ dns.pub
 dns.weixin.qq.com
 dns.weixin.qq.com.cn
 e-hentai.org
+easytomessage.com
 fabric.io
 firebasedynamiclinks.googleapis.com
 firebaselogging-pa.googleapis.com
