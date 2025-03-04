@@ -1,10 +1,12 @@
 2miners.com
 4paradigm.com
+acs.m.taobao.com
 addthis.com
 addthisedge.com
 alimama.alicdn.com
 alimama.com
 allawnfs.com
+amdc.m.taobao.com
 analytics.google.com
 api-cn.cdo.heytapmobi.com
 app.chat.xiaomi.net
