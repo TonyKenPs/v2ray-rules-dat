@@ -21,6 +21,6 @@ domain:ba.dn.nexoncdn.co.kr
 domain:nxm-eu-bagl.nexon.com
 domain:api.ngsm.nexon.com
 domain:sdk-push.mp.nexon.com
-regexp:prod.*bluearchive.*
 domain:manhuagui.com
 domain:colamanga.com
+regexp:prod.*bluearchive.*
