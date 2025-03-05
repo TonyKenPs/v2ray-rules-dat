@@ -181,12 +181,14 @@ jobs:
           [ -f "cat-porn-mod.txt" ] && cat cat-porn-mod.txt >> ./community/data/category-porn
           [ -f "private-add.txt" ] && cat private-add.txt >> ./community/data/private
           [ -f "direct-modded.txt" ] && { [ ! -f "./community/data/direct-modded" ] && touch ./community/data/direct-modded; cat direct-modded.txt >> ./community/data/direct-modded; }
+          [ -f "proxy-mix.txt" ] && { [ ! -f "./community/data/proxy-mix" ] && touch ./community/data/proxy-mix cat proxy-mix.txt >> ./community/data/proxy-mix; }
           cp ./community/data/category-games category-games-list.txt
           cp ./community/data/cn direct-list.txt
           cp ./community/data/geolocation-\!cn proxy-list.txt
           cp ./community/data/category-ads-all reject-list.txt
           cp ./community/data/category-porn category-porn-list.txt
           cp ./community/data/direct-modded direct-modded-list.txt
+          cp ./community/data/proxy-mix proxy-mix-list.txt
           cp ./community/data/private private-list.txt
 
       - name: Create `china-list`、`google-cn`、`apple-cn`、`gfw`、`greatfire`、`oppo-realme-list` lists
