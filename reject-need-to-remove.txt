@@ -62,6 +62,7 @@ jpush.cn
 jpush.io
 katfile.com
 knet.cn
+m.qpic.cn
 mail.tsinghua.edu.cn
 mcdn.bilivideo.cn
 mcdn.bilivideo.com
