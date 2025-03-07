@@ -45,6 +45,7 @@ firebaselogging.googleapis.com
 google.com
 googleapis.cn
 googleapis.com
+googletagmanager.com
 graph.instagram.com
 httpdns-euex-push.heytapmobile.com
 httpdns-push.heytapmobile.com
