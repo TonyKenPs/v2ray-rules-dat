@@ -39,6 +39,7 @@ dns.weixin.qq.com
 dns.weixin.qq.com.cn
 e-hentai.org
 easytomessage.com
+events.data.microsoft.com
 fabric.io
 firebasedynamiclinks.googleapis.com
 firebaselogging-pa.googleapis.com
@@ -104,6 +105,7 @@ obus-dctech-cn.heytapmobi.com
 obus-sg.dc.heytapmobile.com
 offer.alibaba.com
 pingjs.qq.com
+pipe.aria.microsoft.com
 push.heytapmobi.com
 push.heytapmobile.com
 push.oppomobile.com
