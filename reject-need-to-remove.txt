@@ -13,6 +13,7 @@ app-measurement.com
 app.chat.xiaomi.net
 appconf.heytapdownload.com
 apps.coloros.com
+badjs.weixinbridge.com
 bdtj.tagtic.cn
 bitsearch.to
 catbox.moe
@@ -50,6 +51,9 @@ googleapis.cn
 googleapis.com
 googletagmanager.com
 graph.instagram.com
+gvideo.qpic.cn
+hklong.weixin.qq.com
+hkshort.weixin.qq.com
 httpdns-euex-push.heytapmobile.com
 httpdns-push.heytapmobile.com
 httpdns.push.oppomobile.com
@@ -112,10 +116,12 @@ push.heytapmobile.com
 push.oppomobile.com
 qlogo.cn
 qpic.cn
+qqpublic.qpic.cn
 rapidgator.net
 resolver.msg.xiaomi.net
 s.youtube.com
 sf3-ttcdn-tos.pstatp.com
+sns.qzone.qq.com
 staticfile.net
 staticfile.org
 staticsns.cdn.bcebos.com
@@ -147,3 +153,4 @@ umengcloud.com
 upload.cc
 wl.spotify.com
 www.paypalobjects.com
+wxs.qq.com
