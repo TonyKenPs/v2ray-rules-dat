@@ -19,7 +19,6 @@ regexp:dnsnio\.\*\.com
 regexp:dnsrr9\.wym\*\.com
 regexp:dnsxyc\.wym\*\.com
 regexp:dnszcp\.zzg\*\.com
-regexp:fp-it\*\.fengkongcloud\.com
 regexp:httpdns\.\*\.yy\.com
 regexp:log\*-misc-lf\.amemv\.com
 regexp:log\*\.aliyuncs\.com
