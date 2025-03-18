@@ -7,7 +7,6 @@ alimama.alicdn.com
 alimama.com
 allawnfs.com
 amdc.m.taobao.com
-analytics.google.com
 api-cn.cdo.heytapmobi.com
 app-measurement.com
 app.chat.xiaomi.net
