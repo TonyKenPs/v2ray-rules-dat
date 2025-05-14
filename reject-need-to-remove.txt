@@ -99,6 +99,7 @@ jnn-pa.googleapis.com
 jpush.cn
 jpush.io
 katfile.com
+knicks.jd.com
 knet.cn
 m.qpic.cn
 mail.tsinghua.edu.cn
