@@ -9,6 +9,7 @@ full:httpdns.push.oppomobile.com
 full:httpdns-push.heytapmobile.com
 full:httpdns-euex-push.heytapmobile.com
 full:feedback.push.oppomobile.com
+full:logistics.apps.oppomobile.com
 full:msg.umeng.com
 full:msgapi.umeng.com
 domain:netease.im
