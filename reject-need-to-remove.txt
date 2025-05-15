@@ -53,6 +53,7 @@ conn-service-us-05.allawnos.com
 conn-service-us-07.allawnos.com
 conn-service-us-08.allawnos.com
 conn1.coloros.com
+conn1.oppomobile.com
 conn2.coloros.com
 conn3.coloros.com
 conn4.coloros.com
