@@ -9,6 +9,8 @@ allawnfs.com
 amdc.m.taobao.com
 api-cn.cdo.heytapmobi.com
 app-measurement.com
+app.adjust
+app.adjust.world
 app.chat.xiaomi.net
 appconf.heytapdownload.com
 apps.coloros.com
@@ -19,6 +21,7 @@ catbox.moe
 cdn.onesignal.com
 click.discord.com
 click.redditmail.com
+client-uc.heytapmobi.com
 clientlog.music.163.com
 clientlog3.music.163.com
 clientmetrics-pa.googleapis.com
