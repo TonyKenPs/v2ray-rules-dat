@@ -15,6 +15,9 @@ domain:yingxiangdao.com
 domain:omarea.com
 domain:ntp.org
 domain:ntp.msn.cn
+domain:yanyulou.com
+domain:qiyue.net
+domain:jpm.red
 keyword:hentai
 keyword:googleapis
 keyword:manhuaren
