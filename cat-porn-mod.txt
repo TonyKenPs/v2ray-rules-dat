@@ -11,6 +11,7 @@ domain:url365.club
 domain:x8cc.net
 domain:qpic.ws
 domain:imagenpic.com
+domain:imgccc.com
 keyword:18comic
 keyword:caihongjiepai
 keyword:fakku
