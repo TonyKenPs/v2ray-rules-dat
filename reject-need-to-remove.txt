@@ -118,6 +118,7 @@ media.fc2.com
 media5.fc2.co
 mmgame.qpic.cn
 mmgame.qpic.cn
+ms.applvn.com
 msgapi.umeng.com
 mtalk.google.com
 mx.technolutions.net
