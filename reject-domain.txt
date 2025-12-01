@@ -1,4 +1,4 @@
-regexp:^vulcan\\d+\\.branch\\.io$
+regexp:^vulcan\d+\.branch\.io
 regexp:\*-inapps\.appsflyersdk\.com
 regexp:\*-launches\.appsflyersdk\.com
 regexp:\*\.bjmantis\.net
