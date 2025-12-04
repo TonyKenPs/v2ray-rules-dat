@@ -5,16 +5,11 @@ full:api.tpns.hk.tencent.com
 full:api.tpns.sgp.tencent.com
 full:api.push.oppomobile.com
 full:api-intl.push.oppomobile.com
-full:httpdns.push.oppomobile.com
-full:httpdns-push.heytapmobile.com
-full:httpdns-euex-push.heytapmobile.com
 full:feedback.push.oppomobile.com
 full:logistics.apps.oppomobile.com
 full:msg.umeng.com
 full:msgapi.umeng.com
 domain:netease.im
-domain:push.oppomobile.com
-domain:push.heytapmobile.com
 domain:bandainamcoshanghai.com
 domain:client-uc.heytapmobi.com
 domain:cn-ms.galaxyappstore.com
