@@ -16,6 +16,8 @@ dysfz.cc
 emacs-china.org
 galaxymacau.com
 galstars.net
+google.cn
+googleapis.cn
 haitum.com
 hostloc.com
 jiaoyou8.com
@@ -24,6 +26,7 @@ laonanren.com
 mysinablog.com
 ntrqq.com
 nytlog.com
+pool.ntp.org
 shuangtv.net
 suppig.net
 top
