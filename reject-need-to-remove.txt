@@ -72,8 +72,6 @@ data.bilibili.tv
 doh.pub
 dns.alidns.com
 dns.pub
-dns.weixin.qq.com
-dns.weixin.qq.com.cn
 e-hentai.org
 easytomessage.com
 events.data.microsoft.com
@@ -91,9 +89,6 @@ graph.instagram.com
 gvideo.qpic.cn
 hklong.weixin.qq.com
 hkshort.weixin.qq.com
-httpdns-euex-push.heytapmobile.com
-httpdns-push.heytapmobile.com
-httpdns.push.oppomobile.com
 icons.mydrivers.com
 imagetwist.com
 imasdk.googleapis.com
