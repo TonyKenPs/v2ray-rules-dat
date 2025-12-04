@@ -53,6 +53,7 @@ adx-os.bridgeoos.com
 adx-static.ksosoft.com
 adx.apiok.net
 adx.xiaodutv.com
+aedns.weixin.qq.com
 afd.baidu.com
 ag.qq.com
 alog-default.umeng.com
@@ -120,6 +121,8 @@ dns.jd.com.gslb.qianxun.com
 dns.loveimgmoe.com
 dns.supfree.net
 dns.weibo.cn
+dns.weixin.qq.com
+dns.weixin.qq.com.cn
 dns1.dimassa.net
 dnsin.in.zapto.xyz
 doh.dns.apple.com
@@ -162,6 +165,7 @@ httpdns.n.netease.com
 httpdns.n.shifen.com
 httpdns.ocloud.oppomobile.com
 httpdns.platform.dbankcloud.cn
+httpdns.push.oppomobile.com
 httpdns.tantanapp.com
 httpdns.volcengineapi.com
 httpdns.yunxindns.com
@@ -243,3 +247,4 @@ www.adsmogo.com
 www.webmaissistemas.online
 youxi.baidu.com
 zhihu-web-analytics.zhihu.com
+
