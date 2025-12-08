@@ -11,6 +11,8 @@ bog.ac
 channel.or.jp
 chkaja.com
 cityline.com
+ckpool.org
+cnbeta.com.tw
 co.jp
 coinomi.net
 croea.com
@@ -18,6 +20,7 @@ developers.google.cn
 dfldata
 fulijianghu
 font.googleapis.cn
+google.cn
 googleapis
 im.ge
 imagegoto.com
