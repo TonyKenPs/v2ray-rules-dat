@@ -6,6 +6,7 @@ full:api.tpns.sgp.tencent.com
 full:api.push.oppomobile.com
 full:api-intl.push.oppomobile.com
 full:feedback.push.oppomobile.com
+full:httpdns.push.oppomobile.com
 full:logistics.apps.oppomobile.com
 full:msg.umeng.com
 full:msgapi.umeng.com
