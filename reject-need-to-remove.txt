@@ -81,6 +81,7 @@ firebaselogging-pa.googleapis.com
 firebaselogging.googleapis.com
 fp-it.fengkongcloud.com
 fx168news.com
+go.linkify.ru
 google.com
 googleapis.cn
 googleapis.com
@@ -102,6 +103,7 @@ jpush.io
 katfile.com
 knicks.jd.com
 knet.cn
+linkify.ru
 loggw-ex.alipay.com
 loggw.alipay.com
 m.qpic.cn
