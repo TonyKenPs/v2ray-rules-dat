@@ -9,7 +9,9 @@ alimama.alicdn.com
 alimama.com
 allawnfs.com
 amdc.m.taobao.com
+api.push.oppomobile.com
 api-cn.cdo.heytapmobi.com
+api-intl.push.oppomobile.com
 apkw.ru
 app.adjust
 app.adjust.world
@@ -19,7 +21,9 @@ apps.coloros.com
 badjs.weixinbridge.com
 bdtj.tagtic.cn
 bitsearch.to
+bjuser.jpush.cn
 catbox.moe
+ce3e75d5.jpush.cn
 cdn.onesignal.com
 click.discord.com
 click.redditmail.com
@@ -92,6 +96,7 @@ gvideo.qpic.cn
 hklong.weixin.qq.com
 hkshort.weixin.qq.com
 icons.mydrivers.com
+im64.jpush.cn
 imagetwist.com
 imasdk.googleapis.com
 img.alibaba.com
@@ -99,8 +104,6 @@ in.appcenter.ms
 jav321.com
 jiguang.cn
 jnn-pa.googleapis.com
-jpush.cn
-jpush.io
 katfile.com
 knicks.jd.com
 knet.cn
@@ -157,12 +160,15 @@ qpic.cn
 qqpublic.qpic.cn
 rapidgator.net
 resolver.msg.xiaomi.net
+s.jpush.cn
 s.youtube.com
 sf3-ttcdn-tos.pstatp.com
+sis.jpush.io
 sns.qzone.qq.com
 staticfile.net
 staticfile.org
 staticsns.cdn.bcebos.com
+stats.jpush.cn
 szlong.weixin.qq.com
 t.co
 tagtic.cn
@@ -184,6 +190,7 @@ tnc3-bjlgy.snssdk.com
 tnc3-bjlgy.zijieapi.com
 tongji.baidu.com
 trade-acs.m.taobao.com
+tsis.jpush.cn
 tv.sohu.com
 ue.yeyoucdn.com
 umeng.co
