@@ -15,12 +15,15 @@ domain:bandainamcoshanghai.com
 domain:client-uc.heytapmobi.com
 domain:cn-ms.galaxyappstore.com
 s.jpush.cn
+s-ipv6.jpush.cn
 sis.jpush.io
 sis-ipv6.jpush.io
 easytomessage.com
 im64.jpush.cn
 stats.jpush.cn
+stats-ipv6.jpush.cn
 tsis.jpush.cn
+tsis-ipv6.jpush.cn
 bjuser.jpush.cn
 ce3e75d5.jpush.cn
 ce3e75d5-ipv6.jpush.cn
