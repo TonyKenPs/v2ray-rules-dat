@@ -24,6 +24,7 @@ bitsearch.to
 bjuser.jpush.cn
 catbox.moe
 ce3e75d5.jpush.cn
+ce3e75d5-ipv6.jpush.cn
 cdn.onesignal.com
 click.discord.com
 click.redditmail.com
@@ -164,6 +165,7 @@ s.jpush.cn
 s.youtube.com
 sf3-ttcdn-tos.pstatp.com
 sis.jpush.io
+sis-ipv6.jpush.io
 sns.qzone.qq.com
 staticfile.net
 staticfile.org
