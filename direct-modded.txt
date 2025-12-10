@@ -14,3 +14,13 @@ domain:netease.im
 domain:bandainamcoshanghai.com
 domain:client-uc.heytapmobi.com
 domain:cn-ms.galaxyappstore.com
+s.jpush.cn
+sis.jpush.io
+sis-ipv6.jpush.io
+easytomessage.com
+im64.jpush.cn
+stats.jpush.cn
+tsis.jpush.cn
+bjuser.jpush.cn
+ce3e75d5.jpush.cn
+ce3e75d5-ipv6.jpush.cn
