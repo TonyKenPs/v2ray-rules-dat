@@ -217,6 +217,7 @@ jobs:
           cp ./community/data/direct-modded direct-modded-list.txt
           cp ./community/data/proxy-mix proxy-mix-list.txt
           cp ./community/data/private private-list.txt
+          cp ./community/data/category-cn-ads category-cn-ads-list.txt
 
       - name: Create `china-list`、`google-cn`、`apple-cn`、`gfw`、`greatfire`、`oppo-realme-list` lists
         run: |
@@ -248,7 +249,7 @@ jobs:
           install -Dp ./custom/publish/geosite.dat ./publish/geosite.dat
           install -p {proxy,direct,reject}-tld-list.txt ./publish/
           install -p {proxy,direct,reject}-list.txt ./publish/
-          install -p {china-list,apple-cn,google-cn,gfw,greatfire,win-spy,win-update,win-extra,category-games-list,direct-modded-list,private-list}.txt ./publish/
+          install -p {china-list,apple-cn,google-cn,gfw,greatfire,win-spy,win-update,win-extra,category-games-list,direct-modded-list,private-list,category-cn-ads-list}.txt ./publish/
           cd ./publish || exit 1
           zip rules.zip {proxy,direct,reject}-list.txt geoip.dat geosite.dat
           sha256sum geosite.dat > geosite.dat.sha256sum
