@@ -149,14 +149,12 @@ jobs:
           cat proxy.txt >> temp-proxy.txt
           cat direct.txt >> temp-direct.txt
           cat reject.txt >> temp-reject.txt
-          cat cn-ads-dns-no-resolve.txt >> temp-cn-ads.txt
 
       - name: Sort and generate redundant lists
         run: |
           cat temp-proxy.txt | sort --ignore-case -u > proxy-list-with-redundant
           cat temp-direct.txt | sort --ignore-case -u > direct-list-with-redundant
           cat temp-reject.txt | sort --ignore-case -u > reject-list-with-redundant
-          cat temp-cn-ads.txt | sort --ignore-case -u > cn-ads-list-with-redundant
 
       - name: Remove redundant domains
         run: |
@@ -164,26 +162,21 @@ jobs:
           ./findRedundantDomain.py ./direct-list-with-redundant ./direct-list-deleted-unsort
           ./findRedundantDomain.py ./proxy-list-with-redundant ./proxy-list-deleted-unsort
           ./findRedundantDomain.py ./reject-list-with-redundant ./reject-list-deleted-unsort
-          ./findRedundantDomain.py ./cn-ads-list-with-redundant ./cn-ads-list-deleted-unsort
           [ ! -f "direct-list-deleted-unsort" ] && touch direct-list-deleted-unsort
           [ ! -f "proxy-list-deleted-unsort" ] && touch proxy-list-deleted-unsort
           [ ! -f "reject-list-deleted-unsort" ] && touch reject-list-deleted-unsort
-          [ ! -f "cn-ads-list-deleted-unsort" ] && touch cn-ads-list-deleted-unsort
           sort ./direct-list-deleted-unsort > ./direct-list-deleted-sort
           sort ./proxy-list-deleted-unsort > ./proxy-list-deleted-sort
           sort ./reject-list-deleted-unsort > ./reject-list-deleted-sort
-          sort ./cn-ads-list-deleted-unsort > ./cn-ads-list-deleted-sort
           diff ./direct-list-deleted-sort ./direct-list-with-redundant | awk '/^>/{print $2}' > ./direct-list-without-redundant
           diff ./proxy-list-deleted-sort ./proxy-list-with-redundant | awk '/^>/{print $2}' > ./proxy-list-without-redundant
           diff ./reject-list-deleted-sort ./reject-list-with-redundant | awk '/^>/{print $2}' > ./reject-list-without-redundant
-          diff ./cn-ads-list-deleted-sort ./cn-ads-list-with-redundant | awk '/^>/{print $2}' > ./cn-ads-list-without-redundant
 
       - name: Remove domains from "need-to-remove" lists in "hidden" branch
         run: |
           diff ./direct-need-to-remove.txt ./direct-list-without-redundant | awk '/^>/{print $2}' > temp-cn.txt
           diff ./proxy-need-to-remove.txt ./proxy-list-without-redundant | awk '/^>/{print $2}' > temp-geolocation-\!cn.txt
           diff ./reject-need-to-remove.txt ./reject-list-without-redundant | awk '/^>/{print $2}' > temp-category-ads-all.txt
-          diff ./cn-ads-need-to-remove.txt ./cn-ads-list-without-redundant | awk '/^>/{print $2}' > temp-category-cn-ads.txt
 
       - name: Write lists to data directory
         run: |
@@ -193,8 +186,6 @@ jobs:
           cat temp-geolocation-\!cn.txt | sort --ignore-case -u | perl -ne 'print if not /^((?=^.{3,255})[a-zA-Z0-9][-_a-zA-Z0-9]{0,62}(\.[a-zA-Z0-9][-_a-zA-Z0-9]{0,62})+)/' > proxy-tld-list.txt
           cat temp-category-ads-all.txt | sort --ignore-case -u | perl -ne '/^((?=^.{1,255})[a-zA-Z0-9][-_a-zA-Z0-9]{0,62}(\.[a-zA-Z0-9][-_a-zA-Z0-9]{0,62})*)/ && print "$1\n"' > ./community/data/category-ads-all
           cat temp-category-ads-all.txt | sort --ignore-case -u | perl -ne 'print if not /^((?=^.{3,255})[a-zA-Z0-9][-_a-zA-Z0-9]{0,62}(\.[a-zA-Z0-9][-_a-zA-Z0-9]{0,62})+)/' > reject-tld-list.txt
-          [ -f "temp-category-cn-ads.txt" ] && { [ ! -f "./community/data/category-cn-ads" ] && touch ./community/data/category-cn-ads; cat temp-category-cn-ads.txt | sort --ignore-case -u | perl -ne '/^((?=^.{1,255})[a-zA-Z0-9][-_a-zA-Z0-9]{0,62}(\.[a-zA-Z0-9][-_a-zA-Z0-9]{0,62})*)/ && print "$1\n"' > ./community/data/category-cn-ads; }
-          [ -f "temp-category-cn-ads.txt" ] && { [ ! -f "./community/data/category-cn-ads" ] && touch ./community/data/category-cn-ads; cat temp-category-cn-ads.txt | sort --ignore-case -u | perl -ne 'print if not /^((?=^.{3,255})[a-zA-Z0-9][-_a-zA-Z0-9]{0,62}(\.[a-zA-Z0-9][-_a-zA-Z0-9]{0,62})+)/' > ./community/data/category-cn-ads; }
 
       - name: Add `full`, `regexp` and `keyword` type of rules back into "cn", "geolocation-!cn" and "category-ads-all" list
         run: |
@@ -209,6 +200,7 @@ jobs:
           [ -f "private-add.txt" ] && cat private-add.txt >> ./community/data/private
           [ -f "direct-modded.txt" ] && { [ ! -f "./community/data/direct-modded" ] && touch ./community/data/direct-modded; cat direct-modded.txt >> ./community/data/direct-modded; }
           [ -f "proxy-mix.txt" ] && { [ ! -f "./community/data/proxy-mix" ] && touch ./community/data/proxy-mix cat proxy-mix.txt >> ./community/data/proxy-mix; }
+          [ -f "cn-ads-dns-no-resolve.txt" ] && { [ ! -f "./community/data/category-cn-ads" ] && touch ./community/data/category-cn-ads cat cn-ads-dns-no-resolve.txt >> ./community/data/category-cn-ads; }
           cp ./community/data/category-games category-games-list.txt
           cp ./community/data/cn direct-list.txt
           cp ./community/data/geolocation-\!cn proxy-list.txt
