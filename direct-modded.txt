@@ -27,3 +27,7 @@ tsis-ipv6.jpush.cn
 bjuser.jpush.cn
 ce3e75d5.jpush.cn
 ce3e75d5-ipv6.jpush.cn
+i.snssdk.com
+mon.snssdk.com
+log.snssdk.com
+ib.snssdk.com
