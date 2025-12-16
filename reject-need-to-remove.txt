@@ -125,6 +125,7 @@ media5.fc2.co
 mmgame.qpic.cn
 mon.snssdk.com
 msgapi.umeng.com
+mssdk.bytedance.com
 mtalk.google.com
 mx.technolutions.net
 nhentai.net
