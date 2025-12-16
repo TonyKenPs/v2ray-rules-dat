@@ -31,3 +31,4 @@ i.snssdk.com
 mon.snssdk.com
 log.snssdk.com
 ib.snssdk.com
+sdk.pushmessage.samsung.com
