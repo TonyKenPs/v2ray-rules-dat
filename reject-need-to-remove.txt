@@ -96,6 +96,8 @@ graph.instagram.com
 gvideo.qpic.cn
 hklong.weixin.qq.com
 hkshort.weixin.qq.com
+i.snssdk.com
+ib.snssdk.com
 icons.mydrivers.com
 im64.jpush.cn
 imagetwist.com
@@ -121,6 +123,7 @@ mdp-appconf-us.heytapdl.com
 media.fc2.com
 media5.fc2.co
 mmgame.qpic.cn
+mon.snssdk.com
 msgapi.umeng.com
 mtalk.google.com
 mx.technolutions.net
@@ -163,6 +166,7 @@ rapidgator.net
 resolver.msg.xiaomi.net
 s.jpush.cn
 s.youtube.com
+sdk.pushmessage.samsung.com
 sf3-ttcdn-tos.pstatp.com
 sis.jpush.io
 sis-ipv6.jpush.io
