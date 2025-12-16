@@ -29,6 +29,7 @@ ce3e75d5.jpush.cn
 ce3e75d5-ipv6.jpush.cn
 i.snssdk.com
 mon.snssdk.com
+mssdk.bytedance.com
 log.snssdk.com
 ib.snssdk.com
 sdk.pushmessage.samsung.com
