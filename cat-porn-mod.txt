@@ -35,6 +35,12 @@ domain:imgso.net
 domain:xunse.pics
 domain:ylimg.com
 domain:bunny.net
+domain:imx.to
+domain:imgbox.com
+domain:picel48.com
+domain:023pic3.cc
+domain:xsimg.com
+domain:2048.spa
 keyword:18comic
 keyword:caihongjiepai
 keyword:fakku
