@@ -173,6 +173,7 @@ sf3-ttcdn-tos.pstatp.com
 sis.jpush.io
 sis-ipv6.jpush.io
 sns.qzone.qq.com
+static-common.heytapdownload.com
 staticfile.net
 staticfile.org
 staticsns.cdn.bcebos.com
