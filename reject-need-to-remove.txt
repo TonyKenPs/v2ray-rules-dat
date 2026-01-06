@@ -80,6 +80,7 @@ dns.alidns.com
 dns.pub
 e-hentai.org
 easytomessage.com
+epoch.finzfin.com
 events.data.microsoft.com
 fabric.io
 firebasedynamiclinks.googleapis.com
