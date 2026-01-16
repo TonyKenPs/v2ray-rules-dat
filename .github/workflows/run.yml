@@ -10,7 +10,7 @@ on:
       - "**/README.md"
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     timeout-minutes: 100
     steps:
       - name: Set variables
@@ -57,30 +57,30 @@ jobs:
         shell: bash
 
       - name: Checkout the "hidden" branch of this repo
-        uses: actions/checkout@v6
+        uses: actions/checkout@v5
         with:
           ref: hidden
 
       - name: Checkout Loyalsoldier/domain-list-custom
-        uses: actions/checkout@v6
+        uses: actions/checkout@v5
         with:
           repository: Loyalsoldier/domain-list-custom
           path: custom
 
       - name: Checkout v2fly/domain-list-community
-        uses: actions/checkout@v6
+        uses: actions/checkout@v5
         with:
           repository: v2fly/domain-list-community
           path: community
 
       - name: Checkout cokebar/gfwlist2dnsmasq
-        uses: actions/checkout@v6
+        uses: actions/checkout@v5
         with:
           repository: cokebar/gfwlist2dnsmasq
           path: gfwlist2dnsmasq
 
       - name: Setup Go
-        uses: actions/setup-go@v6
+        uses: actions/setup-go@v5
         with:
           go-version-file: ./custom/go.mod
           cache-dependency-path: ./custom/go.sum
