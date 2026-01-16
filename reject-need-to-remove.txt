@@ -22,6 +22,7 @@ badjs.weixinbridge.com
 bdtj.tagtic.cn
 bitsearch.to
 bjuser.jpush.cn
+busuanzi.ibruce.info
 catbox.moe
 ce3e75d5.jpush.cn
 ce3e75d5-ipv6.jpush.cn
