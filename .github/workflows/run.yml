@@ -164,9 +164,6 @@ jobs:
           [ -f "game.txt" ] && cat game.txt >> ./community/data/category-games
           [ -f "cat-porn-mod.txt" ] && cat cat-porn-mod.txt >> ./community/data/category-porn
           [ -f "private-add.txt" ] && cat private-add.txt >> ./community/data/private
-          [ -f "direct-modded.txt" ] && { [ ! -f "./community/data/direct-modded" ] && touch ./community/data/direct-modded; cat direct-modded.txt >> ./community/data/direct-modded; }
-          [ -f "proxy-mix.txt" ] && { [ ! -f "./community/data/proxy-mix" ] && touch ./community/data/proxy-mix; cat proxy-mix.txt >> ./community/data/proxy-mix; }
-          [ -f "cn-ads-dns-no-resolve.txt" ] && { [ ! -f "./community/data/category-cn-ads" ] && touch ./community/data/category-cn-ads; cat cn-ads-dns-no-resolve.txt >> ./community/data/category-cn-ads; }
           cp ./community/data/cn direct-list.txt
           cp ./community/data/geolocation-\!cn proxy-list.txt
           cp ./community/data/category-ads-all reject-list.txt
