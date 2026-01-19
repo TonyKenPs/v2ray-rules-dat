@@ -46,8 +46,6 @@ jobs:
           echo "EASYPRIVACY_FIRST_PARTY_URL=https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers_international.txt" >> $GITHUB_ENV
           echo "EASYPRIVACY_MOBILE_TRACKERS_URL=https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_thirdparty_international.txt" >> $GITHUB_ENV
           
-          echo "ADG_HAGEZI_ANTI_PIRACY_URL=https://adguardteam.github.io/HostlistsRegistry/assets/filter_46.txt" >> $GITHUB_ENV
-          
         shell: bash
 
       - name: Checkout the "hidden" branch of this repo
@@ -123,7 +121,6 @@ jobs:
             curl -sSL $EASYPRIVACY_FIRST_PARTY_URL | perl -ne '/^\|\|([-_0-9a-zA-Z]+(\.[-_0-9a-zA-Z]+){1,64})\^$/ && print "$1\n"' | perl -ne 'print if not /^[0-9]{1,3}(\.[0-9]{1,3}){3}$/'
             curl -sSL $EASYPRIVACY_MOBILE_TRACKERS_URL | perl -ne '/^\|\|([-_0-9a-zA-Z]+(\.[-_0-9a-zA-Z]+){1,64})\^$/ && print "$1\n"' | perl -ne 'print if not /^[0-9]{1,3}(\.[0-9]{1,3}){3}$/'
             curl -sSL $ADBLOCK_DNS_URL | perl -ne '/^\|\|([-_0-9a-zA-Z]+(\.[-_0-9a-zA-Z]+){1,64})\^$/ && print "$1\n"' | perl -ne 'print if not /^[0-9]{1,3}(\.[0-9]{1,3}){3}$/'
-            curl -sSL $ADG_HAGEZI_ANTI_PIRACY_URL | perl -ne '/^\|\|([-_0-9a-zA-Z]+(\.[-_0-9a-zA-Z]+){1,64})\^$/ && print "$1\n"' | perl -ne 'print if not /^[0-9]{1,3}(\.[0-9]{1,3}){3}$/'
             curl -sSL $PETERLOWE_REJECT_URL | perl -ne '/^127\.0\.0\.1\s([-_0-9a-zA-Z]+(\.[-_0-9a-zA-Z]+){1,64})$/ && print "full:$1\n"'
             curl -sSL $DANPOLLOCK_REJECT_URL | perl -ne '/^127\.0\.0\.1\s([-_0-9a-zA-Z]+(\.[-_0-9a-zA-Z]+){1,64})/ && print "full:$1\n"' | sed '1d'
             curl -sSL $HULULU1068_ADH_URL | perl -ne '/^\|\|([-_0-9a-zA-Z]+(\.[-_0-9a-zA-Z]+){1,64})\^$/ && print "$1\n"' | perl -ne 'print if not /^[0-9]{1,3}(\.[0-9]{1,3}){3}$/'
