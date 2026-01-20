@@ -6,7 +6,6 @@ include:letv-ads
 include:baidu-ads
 include:iqiyi-ads
 include:apple-ads
-include:zhihu @ads
 include:acfun-ads
 include:youku-ads
 include:kugou-ads
@@ -22,3 +21,9 @@ include:applovin-ads
 include:qihoo360-ads
 include:bytedance-ads
 include:television-ads
+include:hunantv-ads
+include:qihoo360-ads
+include:unity-ads
+include:tendcloud @ads
+include:cctv @ads
+include:zhihu @ads
