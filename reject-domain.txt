@@ -24,3 +24,5 @@ regexp:log\*-misc-lf\.amemv\.com
 regexp:log\*\.aliyuncs\.com
 regexp:p\*-ad\.adukwai\.com
 regexp:report\.\*\.qq\.com
+regexp:^[A-Za-z0-9\-\._]*ads[A-Za-z0-9\-\._]*\.heytapmobi\.com$
+regexp:^[A-Za-z0-9\-\._]*ads[A-Za-z0-9\-\._]*\.oppomobile\.com$
