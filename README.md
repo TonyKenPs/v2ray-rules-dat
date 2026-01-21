@@ -483,6 +483,3 @@ steamstatic.com.8686c.com @cn
 - [@DanPollock/hosts](https://someonewhocares.org/hosts)
 - [@crazy-max/WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker)
 
-## 项目 Star 数增长趋势
-
-[![Stargazers over time](https://starchart.cc/TonyKenPs/v2ray-rules-dat.svg)](https://starchart.cc/TonyKenPs/v2ray-rules-dat)
