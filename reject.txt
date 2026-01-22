@@ -28,7 +28,6 @@ ads.privacy.qq.com
 ads.static.madserving.com
 adsame.com
 adsclick.qq.com
-adsclick.qq.com
 adsense.html5.qq.com
 adsfile.qq.com
 adsgroup.qq.com
@@ -58,7 +57,6 @@ afd.baidu.com
 ag.qq.com
 alog-default.umeng.com
 alog.umeng.co
-alog.umeng.com
 alog.umeng.com
 alogs.umeng.com
 alogs.umengcloud.com
@@ -99,7 +97,6 @@ cf.cdn.inmobi.com
 cgicol.amap.com
 chance-ad.com
 config.mobisage.cn
-ctobsnssdk.com
 ctobsnssdk.com
 cz15.now-dns.top
 d.gdt.qq.com
@@ -248,5 +245,6 @@ www.adsmogo.com
 www.webmaissistemas.online
 youxi.baidu.com
 zhihu-web-analytics.zhihu.com
+
 
 
