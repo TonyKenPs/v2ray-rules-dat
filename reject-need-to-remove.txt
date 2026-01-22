@@ -21,6 +21,7 @@ apps.coloros.com
 badjs.weixinbridge.com
 bdtj.tagtic.cn
 bitsearch.to
+bj.bcebos.com
 bjuser.jpush.cn
 busuanzi.ibruce.info
 catbox.moe
