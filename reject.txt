@@ -50,6 +50,7 @@ adv.madserving.com
 adver.qq.com
 adx-os.bridgeoos.com
 adx-static.ksosoft.com
+adx.ads.heytapmobi.com
 adx.apiok.net
 adx.xiaodutv.com
 aedns.weixin.qq.com
@@ -178,6 +179,7 @@ line1-log.biligame.net
 lofter.httpdns.c.163.com
 log.mmstat.com
 loggw.alipay.com.cn
+mdp-usertrace-cn.heytapmobi.com
 mdt.qq.com
 metok.sys.miui.com
 miav-cse.avlyun.com
@@ -210,6 +212,7 @@ reyun.com
 sdkconfig.ad.xiaomi.com
 sec.umeng.com
 static.dns.qiyipic.iqiyi.com
+stg-data.ads.heytapmobi.com
 sugar.zhihu.com
 tp2p.kg.qq.com
 tpstelemetry.tencent.com
@@ -245,6 +248,7 @@ www.adsmogo.com
 www.webmaissistemas.online
 youxi.baidu.com
 zhihu-web-analytics.zhihu.com
+
 
 
 
