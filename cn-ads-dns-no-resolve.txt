@@ -27,3 +27,30 @@ include:unity-ads
 include:tendcloud @ads
 include:cctv @ads
 include:zhihu @ads
+regexp:^vulcan\d+\.branch\.io
+regexp:\*-inapps\.appsflyersdk\.com
+regexp:\*-launches\.appsflyersdk\.com
+regexp:\*\.bjmantis\.net
+regexp:\*\.compute\.hwclouds-dns\.com
+regexp:\*\.dns-detect\.alicdn\.com
+regexp:\*\.dns\.cross\.gt
+regexp:\*\.nrb\.footprintdns\.com
+regexp:\*dns\*\.adobe\.com
+regexp:@adsmogo\.com
+regexp:ad\*\.sigmob\.cn
+regexp:click\*forhz\.adsmogo\.com
+regexp:dns\*\.londrimarketing\.com\.br
+regexp:dns\*po\.lzn376\.com
+regexp:dns-\*\.eastus\.cloudapp\.azure\.com
+regexp:dnsa\*f\.\*\.zzy\.com
+regexp:dnsnio\.\*\.com
+regexp:dnsrr9\.wym\*\.com
+regexp:dnsxyc\.wym\*\.com
+regexp:dnszcp\.zzg\*\.com
+regexp:httpdns\.\*\.yy\.com
+regexp:log\*-misc-lf\.amemv\.com
+regexp:log\*\.aliyuncs\.com
+regexp:p\*-ad\.adukwai\.com
+regexp:report\.\*\.qq\.com
+regexp:^[A-Za-z0-9\-\._]*ads[A-Za-z0-9\-\._]*\.heytapmobi\.com$
+regexp:^[A-Za-z0-9\-\._]*ads[A-Za-z0-9\-\._]*\.oppomobile\.com$
