@@ -17,7 +17,6 @@ include:hunantv-ads
 include:alibaba-ads
 include:netease-ads
 include:kuaishou-ads
-include:applovin-ads
 include:qihoo360-ads
 include:bytedance-ads
 include:television-ads
