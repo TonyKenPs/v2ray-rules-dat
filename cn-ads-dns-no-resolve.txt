@@ -22,7 +22,6 @@ include:bytedance-ads
 include:television-ads
 include:hunantv-ads
 include:qihoo360-ads
-include:unity-ads
 include:tendcloud @ads
 include:cctv @ads
 include:zhihu @ads
