@@ -9,7 +9,6 @@ include:apple-ads
 include:acfun-ads
 include:youku-ads
 include:kugou-ads
-include:adjust-ads
 include:xiaomi-ads
 include:mihoyo-ads
 include:tencent-ads
@@ -22,6 +21,8 @@ include:bytedance-ads
 include:television-ads
 include:hunantv-ads
 include:qihoo360-ads
+include:unity @ads
+include:unitychina @ads
 include:tendcloud @ads
 include:cctv @ads
 include:zhihu @ads
