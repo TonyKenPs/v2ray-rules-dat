@@ -1,0 +1,11 @@
+include:hoyoverse
+domain:shinycolors.enza.fun
+keyword:imassc
+keyword:shinycolors
+keyword:priconne-redive
+keyword:song4.prism
+keyword:starlight-stage
+keyword:theaterdays
+keyword:umamusume
+keyword:projectsekai
+keyword:colorfulpalette

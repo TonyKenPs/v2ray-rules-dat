@@ -1,0 +1,4 @@
+full:m.mcd.cn
+full:wxmini.wiwide.com
+regexp:(^|\.)conn-service-cn-[0-9][0-9]\.allawntech.com$
+regexp:(^|\.)conn[0-9]\.coloros.com$
