@@ -2,7 +2,6 @@ include:jd @ads
 include:sohu @ads
 include:sina @ads
 include:amap @ads
-include:letv @ads
 include:baidu @ads
 include:iqiyi @ads
 include:apple @ads
