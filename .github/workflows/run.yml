@@ -206,6 +206,71 @@ jobs:
           cd custom || exit 1
           go run ./ --datapath=../community/data
 
+      - name: Build geositemod-lite.dat for iOS
+        run: |
+          mkdir -p community/data-lite
+
+          NEEDED_CATEGORIES=(
+            private
+            cn
+            geolocation-\!cn
+            google-cn
+            apple-cn
+            category-ads-all
+            category-httpdns-cn
+            category-cryptocurrency
+            category-porn
+            category-bank-cn
+            category-games-cn
+            proxy-mix
+            direct-modded
+            netease
+            tencent
+            staticfile
+            nga
+            nyaa
+            nexon
+            huobi
+            dmm
+            tiktok
+            samsung
+            gfw
+            greatfire
+          )
+
+          for cat in "${NEEDED_CATEGORIES[@]}"; do
+            src="community/data/${cat}"
+            if [ -f "$src" ]; then
+              cp "$src" "community/data-lite/${cat}"
+            else
+              echo "⚠️  WARNING: category '${cat}' not found in community/data/, skipping"
+            fi
+          done
+
+          # 解析 include: 依赖，把被引用的分类也一并复制进去
+          resolve_includes() {
+            local datadir="$1"
+            local changed=1
+            while [ $changed -eq 1 ]; do
+              changed=0
+              for f in "$datadir"/*; do
+                grep -oP '(?<=^include:)[^\s]+' "$f" 2>/dev/null | while read -r dep; do
+                  if [ ! -f "$datadir/$dep" ] && [ -f "community/data/$dep" ]; then
+                    echo "  → auto-include dependency: $dep"
+                    cp "community/data/$dep" "$datadir/$dep"
+                    changed=1
+                  fi
+                done
+              done
+            done
+          }
+
+          resolve_includes community/data-lite
+
+          # 编译精简版
+          cd custom || exit 1
+          go run ./ --datapath=../community/data-lite --outputname=geositemod-lite.dat
+
       - name: Move and zip files and generate sha256 hash
         run: |
           install -Dp ./geoip.dat ./publish/geoip.dat
@@ -214,6 +279,8 @@ jobs:
           install -p {proxy,direct,reject}-tld-list.txt ./publish/
           install -p {proxy,direct,reject}-list.txt ./publish/
           install -p {china-list,apple-cn,google-cn,gfw,greatfire,win-spy,win-update,win-extra}.txt ./publish/
+          install -Dp ./custom/publish/geositemod-lite.dat ./publish/geositemod-lite.dat
+          sha256sum ./publish/geositemod-lite.dat > ./publish/geositemod-lite.dat.sha256sum
           cd ./publish || exit 1
           zip rules.zip {proxy,direct,reject}-list.txt geoip.dat geosite.dat
           sha256sum geosite.dat > geosite.dat.sha256sum
