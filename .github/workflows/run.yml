@@ -269,7 +269,7 @@ jobs:
 
           # 编译精简版
           cd custom || exit 1
-          go run ./ --datapath=../community/data-lite --outputname=geositemod-lite.dat
+          go run ./ --datapath=../community/data-lite --datname=geositemod-lite.dat
 
       - name: Move and zip files and generate sha256 hash
         run: |
