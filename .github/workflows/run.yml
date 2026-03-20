@@ -200,42 +200,43 @@ jobs:
           curl -sSL $WIN_UPDATE | grep "0.0.0.0" | awk '{print $2}' > win-update.txt
           curl -sSL $WIN_EXTRA | grep "0.0.0.0" | awk '{print $2}' > ./community/data/win-extra
           curl -sSL $WIN_EXTRA | grep "0.0.0.0" | awk '{print $2}' > win-extra.txt
-
-      - name: Build geosite.dat file
-        run: |
-          cd custom || exit 1
-          go run ./ --datapath=../community/data
-
-      - name: Move and zip files and generate sha256 hash
-        run: |
-          install -Dp ./geoip.dat ./publish/geoip.dat
-          install -Dp ./geoip.dat.sha256sum ./publish/geoip.dat.sha256sum
-          install -Dp ./custom/publish/geosite.dat ./publish/geosite.dat
-          install -p {proxy,direct,reject}-tld-list.txt ./publish/
-          install -p {proxy,direct,reject}-list.txt ./publish/
-          install -p {china-list,apple-cn,google-cn,gfw,greatfire,win-spy,win-update,win-extra}.txt ./publish/
-          cd ./publish || exit 1
-          zip rules.zip {proxy,direct,reject}-list.txt geoip.dat geosite.dat
-          sha256sum geosite.dat > geosite.dat.sha256sum
-          sha256sum rules.zip > rules.zip.sha256sum
+          # 导出额外分类供 Loon .list 转换使用
+          for cat in category-httpdns-cn category-cryptocurrency category-porn \
+                     proxy-mix direct-modded netease tencent staticfile nga \
+                     nyaa nexon huobi dmm tiktok category-bank-cn \
+                     category-games-cn private category-cn-ads category-games tld-\!cn category-ip-geo-detect oppo; do
+            [ -f "./community/data/${cat}" ] && \
+              cat "./community/data/${cat}" | sort --ignore-case -u > "${cat}.txt" || \
+              echo "# empty" > "${cat}.txt"
+          done
+          # samsung@cn 属性过滤：只取含 @cn 的条目
+          grep '@cn' ./community/data/samsung 2>/dev/null | \
+            perl -ne '/^(full:)?([^:@\s]+)/ && print "$1$2\n"' | \
+            sort --ignore-case -u > samsung-cn.txt || echo "# empty" > samsung-cn.txt
 
       - name: Generate Loon rule-set .list files
         run: |
+          mkdir -p ./publish
           convert_to_loon() {
             local input="$1"
             local output="$2"
             {
-              echo "# Generated from $(basename $input)"
+              echo "# $(basename $input) - Loon rule-set"
               echo "# Build: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
               echo "# Repo: https://github.com/${{ github.repository }}"
               echo ""
               while IFS= read -r line || [ -n "$line" ]; do
                 [[ -z "$line" || "$line" =~ ^# ]] && continue
                 [[ "$line" =~ ^regexp: || "$line" =~ ^include: ]] && continue
+                line="${line%%@*}"   # 去掉 @attr 部分
+                line="${line%%:@*}"
+                [[ -z "$line" ]] && continue
                 if [[ "$line" =~ ^full:(.+) ]]; then
                   echo "DOMAIN,${BASH_REMATCH[1]}"
                 elif [[ "$line" =~ ^keyword:(.+) ]]; then
                   echo "DOMAIN-KEYWORD,${BASH_REMATCH[1]}"
+                elif [[ "$line" =~ ^domain:(.+) ]]; then
+                  echo "DOMAIN-SUFFIX,${BASH_REMATCH[1]}"
                 else
                   echo "DOMAIN-SUFFIX,$line"
                 fi
@@ -243,17 +244,95 @@ jobs:
             } > "$output"
           }
 
-          convert_to_loon direct-list.txt           ./publish/loon-cn.list
-          convert_to_loon proxy-list.txt            ./publish/loon-geolocation-!cn.list
-          convert_to_loon reject-list.txt           ./publish/loon-category-ads-all.list
-          convert_to_loon china-list.txt            ./publish/loon-china-list.list
-          convert_to_loon apple-cn.txt              ./publish/loon-apple-cn.list
-          convert_to_loon google-cn.txt             ./publish/loon-google-cn.list
-          convert_to_loon gfw.txt                   ./publish/loon-gfw.list
-          convert_to_loon greatfire.txt             ./publish/loon-greatfire.list
-          convert_to_loon win-spy.txt               ./publish/loon-win-spy.list
-          convert_to_loon win-update.txt            ./publish/loon-win-update.list
-          convert_to_loon win-extra.txt             ./publish/loon-win-extra.list    
+          convert_to_loon direct-list.txt              ./publish/loon-cn.list
+          convert_to_loon proxy-list.txt               ./publish/loon-geolocation-!cn.list
+          convert_to_loon reject-list.txt              ./publish/loon-category-ads-all.list
+          convert_to_loon china-list.txt               ./publish/loon-china-list.list
+          convert_to_loon apple-cn.txt                 ./publish/loon-apple-cn.list
+          convert_to_loon google-cn.txt                ./publish/loon-google-cn.list
+          convert_to_loon gfw.txt                      ./publish/loon-gfw.list
+          convert_to_loon greatfire.txt                ./publish/loon-greatfire.list
+          convert_to_loon category-httpdns-cn.txt      ./publish/loon-category-httpdns-cn.list
+          convert_to_loon category-cryptocurrency.txt  ./publish/loon-category-cryptocurrency.list
+          convert_to_loon category-porn.txt            ./publish/loon-category-porn.list
+          convert_to_loon proxy-mix.txt                ./publish/loon-proxy-mix.list
+          convert_to_loon direct-modded.txt            ./publish/loon-direct-modded.list
+          convert_to_loon netease.txt                  ./publish/loon-netease.list
+          convert_to_loon tencent.txt                  ./publish/loon-tencent.list
+          convert_to_loon staticfile.txt               ./publish/loon-staticfile.list
+          convert_to_loon nga.txt                      ./publish/loon-nga.list
+          convert_to_loon nyaa.txt                     ./publish/loon-nyaa.list
+          convert_to_loon nexon.txt                    ./publish/loon-nexon.list
+          convert_to_loon huobi.txt                    ./publish/loon-huobi.list
+          convert_to_loon dmm.txt                      ./publish/loon-dmm.list
+          convert_to_loon tiktok.txt                   ./publish/loon-tiktok.list
+          convert_to_loon category-bank-cn.txt         ./publish/loon-category-bank-cn.list
+          convert_to_loon category-games-cn.txt        ./publish/loon-category-games-cn.list
+          convert_to_loon private.txt                  ./publish/loon-private.list
+          convert_to_loon samsung-cn.txt               ./publish/loon-samsung-cn.list
+          convert_to_loon category-cn-ads.txt          ./publish/loon-category-cn-ads.list
+          convert_to_loon game.txt                     ./publish/loon-category-games.list
+          convert_to_loon tld-\!cn.txt                 ./publish/loon-tld-!cn.list
+          convert_to_loon category-ip-geo-detect.txt   ./publish/loon-category-ip-geo-detect.list
+          convert_to_loon oppo.txt                     ./publish/loon-oppo.list
+
+      - name: Build geosite.dat file
+        run: |
+          cd custom || exit 1
+          go run ./ --datapath=../community/data
+
+      - name: Build geositemod-lite.dat for iOS
+        run: |
+          mkdir -p community/data-lite
+
+          NEEDED_CATEGORIES=(
+            private cn "geolocation-\!cn" google-cn apple-cn
+            category-ads-all category-httpdns-cn category-cryptocurrency
+            category-porn category-bank-cn category-games-cn
+            proxy-mix direct-modded netease tencent staticfile
+            nga nyaa nexon huobi dmm tiktok samsung
+            gfw greatfire category-cn-ads category-games tld-\!cn category-ip-geo-detect oppo
+          )
+
+          for cat in "${NEEDED_CATEGORIES[@]}"; do
+            src="community/data/${cat}"
+            [ -f "$src" ] && cp "$src" "community/data-lite/${cat}" || \
+              echo "⚠️  WARNING: ${cat} not found, skipping"
+          done
+
+          # 自动补全 include: 依赖
+          changed=1
+          while [ $changed -eq 1 ]; do
+            changed=0
+            for f in community/data-lite/*; do
+              while IFS= read -r dep; do
+                if [ ! -f "community/data-lite/$dep" ] && [ -f "community/data/$dep" ]; then
+                  cp "community/data/$dep" "community/data-lite/$dep"
+                  echo "  → auto-include: $dep"
+                  changed=1
+                fi
+              done < <(grep -oP '(?<=^include:)\S+' "$f" 2>/dev/null)
+            done
+          done
+
+          cd custom || exit 1
+          go run ./ --datapath=../community/data-lite --datname=geositemod-lite.dat
+
+      - name: Move and zip files and generate sha256 hash
+        run: |
+          install -Dp ./geoip.dat ./publish/geoip.dat
+          install -Dp ./geoip.dat.sha256sum ./publish/geoip.dat.sha256sum
+          install -Dp ./custom/publish/geosite.dat ./publish/geosite.dat
+          install -Dp ./custom/publish/geositemod-lite.dat ./publish/geositemod-lite.dat
+          install -p {proxy,direct,reject}-tld-list.txt ./publish/
+          install -p {proxy,direct,reject}-list.txt ./publish/
+          install -p {china-list,apple-cn,google-cn,gfw,greatfire,win-spy,win-update,win-extra}.txt ./publish/
+          cd ./publish || exit 1
+          zip rules.zip {proxy,direct,reject}-list.txt geoip.dat geosite.dat
+          sha256sum geosite.dat > geosite.dat.sha256sum
+          sha256sum geositemod-lite.dat > geositemod-lite.dat.sha256sum
+          sha256sum rules.zip > rules.zip.sha256sum
+
 
       - name: Release and upload assets
         uses: svenstaro/upload-release-action@v2
