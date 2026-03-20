@@ -285,13 +285,19 @@ jobs:
         run: |
           mkdir -p community/data-lite
 
+          # 含 ! 的文件名单独处理，避免 bash history expansion
+          cp community/data/geolocation-\!cn community/data-lite/geolocation-\!cn 2>/dev/null || echo "⚠️ geolocation-!cn not found"
+          cp community/data/tld-\!cn        community/data-lite/tld-\!cn         2>/dev/null || echo "⚠️ tld-!cn not found"
+
+          # 其余分类正常循环处理（全部不含 !）
           NEEDED_CATEGORIES=(
-            private cn 'geolocation-\!cn' google-cn apple-cn
+            private cn google-cn apple-cn
             category-ads-all category-httpdns-cn category-cryptocurrency
             category-porn category-bank-cn category-games-cn
             proxy-mix direct-modded netease tencent staticfile
             nga nyaa nexon huobi dmm tiktok samsung
-            gfw greatfire category-cn-ads category-games 'tld-!cn' category-ip-geo-detect oppo
+            gfw greatfire category-cn-ads category-games
+            category-ip-geo-detect oppo
           )
 
           for cat in "${NEEDED_CATEGORIES[@]}"; do
