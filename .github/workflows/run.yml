@@ -245,8 +245,8 @@ jobs:
           }
 
           convert_to_loon direct-list.txt              ./publish/loon-cn.list
-          GEOLOCATION_NOT_CN_OUTPUT="./publish/loon-geolocation-!cn.list"
-          convert_to_loon proxy-list.txt "$GEOLOCATION_NOT_CN_OUTPUT"
+          convert_to_loon proxy-list.txt $'./publish/loon-geolocation-\x21cn.list'
+          convert_to_loon 'tld-!cn.txt'  $'./publish/loon-tld-\x21cn.list'
           convert_to_loon reject-list.txt              ./publish/loon-category-ads-all.list
           convert_to_loon china-list.txt               ./publish/loon-china-list.list
           convert_to_loon apple-cn.txt                 ./publish/loon-apple-cn.list
@@ -273,7 +273,6 @@ jobs:
           convert_to_loon samsung-cn.txt               ./publish/loon-samsung-cn.list
           convert_to_loon category-cn-ads.txt          ./publish/loon-category-cn-ads.list
           convert_to_loon game.txt                     ./publish/loon-category-games.list
-          convert_to_loon 'tld-!cn.txt'                 './publish/loon-tld-!cn.list'
           convert_to_loon category-ip-geo-detect.txt   ./publish/loon-category-ip-geo-detect.list
           convert_to_loon oppo.txt                     ./publish/loon-oppo.list
 
