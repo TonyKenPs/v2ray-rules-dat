@@ -209,6 +209,26 @@ jobs:
               cat "./community/data/${cat}" | sort --ignore-case -u > "${cat}.txt" || \
               echo "# empty" > "${cat}.txt"
           done
+          # 单独处理 category-cn-ads，展开 include:xxx @ads 属性过滤
+          > category-cn-ads.txt
+          while IFS= read -r line; do
+            if [[ "$line" =~ ^include:([^[:space:]]+)[[:space:]]+@ads ]]; then
+              cat_name="${BASH_REMATCH[1]}"
+              src="./community/data/${cat_name}"
+              if [ -f "$src" ]; then
+                grep '@ads' "$src" | \
+                  perl -ne '
+                    s/#.*//;
+                    s/\s.*//;
+                    next unless length;
+                    if (/^full:(.+)/) { print "full:$1\n" }
+                    elsif (/^([^:@]+)/) { print "$1\n" }
+                  '
+              else
+                echo "  ⚠️  WARNING: community/data/${cat_name} not found, skipping"
+              fi
+            fi
+          done < cn-ads-dns-no-resolve.txt | sort --ignore-case -u >> category-cn-ads.txt
           # samsung@cn 属性过滤：只取含 @cn 的条目
           grep '@cn' ./community/data/samsung 2>/dev/null | \
             perl -ne '/^(full:)?([^:@\s]+)/ && print "$1$2\n"' | \
