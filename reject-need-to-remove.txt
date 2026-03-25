@@ -97,6 +97,9 @@ googleapis.com
 googletagmanager.com
 graph.instagram.com
 gvideo.qpic.cn
+gvt1.com
+gvt2.com
+gvt3.com
 hklong.weixin.qq.com
 hkshort.weixin.qq.com
 i.snssdk.com
