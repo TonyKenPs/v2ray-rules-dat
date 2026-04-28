@@ -26,3 +26,5 @@ regexp:p\*-ad\.adukwai\.com
 regexp:report\.\*\.qq\.com
 regexp:^[A-Za-z0-9\-\._]*ads[A-Za-z0-9\-\._]*\.heytapmobi\.com$
 regexp:^[A-Za-z0-9\-\._]*ads[A-Za-z0-9\-\._]*\.oppomobile\.com$
+domain:wuchucloud.net
+domain:wuchucloud.com
