@@ -1,0 +1,5 @@
+# samsung-cn.txt - Loon rule-set
+# Build: 2026-04-29 22:51:36 UTC
+# Repo: https://github.com/TonyKenPs/v2ray-rules-dat
+
+DOMAIN-SUFFIX,samsungeshop.com.cn

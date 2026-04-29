@@ -1,0 +1,29 @@
+# proxy-mix.txt - Loon rule-set
+# Build: 2026-04-29 22:51:36 UTC
+# Repo: https://github.com/TonyKenPs/v2ray-rules-dat
+
+DOMAIN-SUFFIX,api.ngsm.nexon.com
+DOMAIN-SUFFIX,ba.dn.nexoncdn.co.kr
+DOMAIN-SUFFIX,colamanga.com
+DOMAIN-SUFFIX,m.nexon.com
+DOMAIN-SUFFIX,manhuagui.com
+DOMAIN-SUFFIX,nexon.com
+DOMAIN-SUFFIX,nexon.io
+DOMAIN-SUFFIX,nexoncdn.co.kr
+DOMAIN-SUFFIX,nxm-eu-bagl.nexon.com
+DOMAIN-SUFFIX,sdk-push.mp.nexon.com
+DOMAIN,d1xcyqc5pfiggd.cloudfront.net
+DOMAIN,d2vaidpni345rp.cloudfront.net
+DOMAIN,d30y0swoxkbnsm.cloudfront.net
+DOMAIN,dszw1qtcnsa5e.cloudfront.net
+DOMAIN,jp.livelog.nexon.com
+DOMAIN,log.ngsm.nexon.com
+DOMAIN,m-api.nexon.com
+DOMAIN,nxl.log.nexon.io
+DOMAIN,nxl.nxfs.nexon.com
+DOMAIN,nxm-mt.akamaized.net
+DOMAIN,o460330.ingest.sentry.io
+DOMAIN,pre-nxl.nxfs.nexon.com
+DOMAIN,public.api.nexon.com
+DOMAIN,stamp.mp.nexon.com
+DOMAIN,toy.log.nexon.io

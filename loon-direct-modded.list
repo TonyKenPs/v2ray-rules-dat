@@ -1,0 +1,40 @@
+# direct-modded.txt - Loon rule-set
+# Build: 2026-04-29 22:51:36 UTC
+# Repo: https://github.com/TonyKenPs/v2ray-rules-dat
+
+DOMAIN-SUFFIX,bandainamcoshanghai.com
+DOMAIN-SUFFIX,client-uc.heytapmobi.com
+DOMAIN-SUFFIX,cn-ms.galaxyappstore.com
+DOMAIN-SUFFIX,easytomessage.com
+DOMAIN-SUFFIX,netease.im
+DOMAIN-SUFFIX,weixin.com
+DOMAIN,ack.upush.umeng.com
+DOMAIN,api-intl.push.oppomobile.com
+DOMAIN,api.push.oppomobile.com
+DOMAIN,api.tpns.hk.tencent.com
+DOMAIN,api.tpns.sgp.tencent.com
+DOMAIN,api.tpns.sh.tencent.com
+DOMAIN,api.tpns.tencent.com
+DOMAIN,bjuser.jpush.cn
+DOMAIN,ce3e75d5-ipv6.jpush.cn
+DOMAIN,ce3e75d5.jpush.cn
+DOMAIN,feedback.push.oppomobile.com
+DOMAIN,httpdns.push.oppomobile.com
+DOMAIN,i.snssdk.com
+DOMAIN,ib.snssdk.com
+DOMAIN,im64.jpush.cn
+DOMAIN,log.snssdk.com
+DOMAIN,logistics.apps.oppomobile.com
+DOMAIN,mon.snssdk.com
+DOMAIN,msg.umeng.com
+DOMAIN,msgapi.umeng.com
+DOMAIN,mssdk.bytedance.com
+DOMAIN,s-ipv6.jpush.cn
+DOMAIN,s.jpush.cn
+DOMAIN,sdk.pushmessage.samsung.com
+DOMAIN,sis-ipv6.jpush.io
+DOMAIN,sis.jpush.io
+DOMAIN,stats-ipv6.jpush.cn
+DOMAIN,stats.jpush.cn
+DOMAIN,tsis-ipv6.jpush.cn
+DOMAIN,tsis.jpush.cn

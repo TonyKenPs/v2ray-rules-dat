@@ -1,0 +1,14 @@
+# game.txt - Loon rule-set
+# Build: 2026-04-29 22:51:36 UTC
+# Repo: https://github.com/TonyKenPs/v2ray-rules-dat
+
+DOMAIN-SUFFIX,shinycolors.enza.fun
+DOMAIN-KEYWORD,imassc
+DOMAIN-KEYWORD,shinycolors
+DOMAIN-KEYWORD,priconne-redive
+DOMAIN-KEYWORD,song4.prism
+DOMAIN-KEYWORD,starlight-stage
+DOMAIN-KEYWORD,theaterdays
+DOMAIN-KEYWORD,umamusume
+DOMAIN-KEYWORD,projectsekai
+DOMAIN-KEYWORD,colorfulpalette
