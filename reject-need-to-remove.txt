@@ -8,6 +8,7 @@ alimama.alicdn.com
 alimama.com
 analytics.google.com
 apkw.ru
+app-measurement.com
 app.chat.xiaomi.net
 bdtj.tagtic.cn
 bitsearch.to
