@@ -214,6 +214,7 @@ sec.umeng.com
 static.dns.qiyipic.iqiyi.com
 stg-data.ads.heytapmobi.com
 sugar.zhihu.com
+tfogc.com
 tp2p.kg.qq.com
 tpstelemetry.tencent.com
 track.easeus.com
