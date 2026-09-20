@@ -105,6 +105,7 @@ d3g.qq.com
 data.qq.com
 data.video.dns.iqiyi.com
 dc.letv.com
+default.exp-tas.com
 dig-ec.bdurl.net
 dig-tlsv3.bdurl.net
 dig.bdurl.net
