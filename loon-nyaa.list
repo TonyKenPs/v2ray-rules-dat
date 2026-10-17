@@ -1,0 +1,6 @@
+# nyaa.txt - Loon rule-set
+# Build: 2026-10-17 23:41:17 UTC
+# Repo: https://github.com/TonyKenPs/v2ray-rules-dat
+
+DOMAIN-SUFFIX,nyaa.net
+DOMAIN-SUFFIX,nyaa.si
